@@ -1,0 +1,5 @@
+nouni=false
+local function lo(l)
+loadstring(game:HttpGet(l,true))()
+nouni=true
+end
